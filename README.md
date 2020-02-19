@@ -45,4 +45,5 @@
 5. You also can see other detailed reports in `.pra .dtl` files
 
 ## Reference
-SCTK package: https://github.com/usnistgov/SCTK/blob/master/README.md
+In this docker, we use SCTK package for sclite scoring. Please refer to SCTK page for further details. 
+SCTK package: https://github.com/usnistgov/SCTK
