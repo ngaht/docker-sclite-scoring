@@ -43,3 +43,6 @@
 ![WER Report](images/wer.png)
 * Here, you might only need to care about the first 5 results, `Corr` for Correction Rate, `Sub` for Substitution Rate, `Del` for Deletion Rate, Ins for Insertion Rate and `Err` for overall word error rate.
 5. You also can see other detailed reports in `.pra .dtl` files
+
+## Reference
+SCTK package: https://github.com/usnistgov/SCTK/blob/master/README.md
