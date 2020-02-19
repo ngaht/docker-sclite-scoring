@@ -1,0 +1,14 @@
+version: '2.1'
+version: '2.1'
+services:
+    decoder:
+        image: ntu_sclite_scoring:1.0
+        restart: unless-stopped
+        volumes:
+            # mapping volumes
+            - ./scoring_input/:/workspace/input
+            
+        command: /workspace/entry_point.sh
+
+
+

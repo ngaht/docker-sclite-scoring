@@ -1,0 +1,130 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 270.43
+tiers? <exists>
+size = 1
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "S1"
+        xmin = 0
+        xmax = 270.43
+        intervals: size = 29
+        intervals [1]:
+            xmin = 0
+            xmax = 0.01
+            text = "--EMPTY--"
+        intervals [2]:
+            xmin = 0.01
+            xmax = 1.89
+            text = ""
+        intervals [3]:
+            xmin = 1.89
+            xmax = 9.38
+            text = "i think it is important to make school fun and when school is fun you don't get kids waking up in the morning as a child"
+        intervals [4]:
+            xmin = 9.38
+            xmax = 10.88
+            text = "you have to come to school again"
+        intervals [5]:
+            xmin = 10.88
+            xmax = 14.63
+            text = "so we embrace technology because it helps us make"
+        intervals [6]:
+            xmin = 14.63
+            xmax = 16.14
+            text = "learning more engaging"
+        intervals [7]:
+            xmin = 16.14
+            xmax = 22.89
+            text = "i believe that when kids are engaged when kids are interested that's where learning takes place"
+        intervals [8]:
+            xmin = 22.89
+            xmax = 24.39
+            text = "and i thought"
+        intervals [9]:
+            xmin = 24.39
+            xmax = 35.63
+            text = "the kids are relieved from a very different world now really to reach out to the kids you need to be savvy with technology if you're not savvy with technology you're going to lose to kids in the school"
+        intervals [10]:
+            xmin = 35.63
+            xmax = 38.63
+            text = "there is a hay cluster"
+        intervals [11]:
+            xmin = 38.63
+            xmax = 76.14
+            text = "ngee ann secondary school is a typical school in singapore where we take in students with different academic abilities and we have about one thousand five hundred and twelve students in the school and i and they all come from neighbourhood we get students from the age of thirteen to about sixteen many students want to come to disco because of its strong a program especially in the use of ai city infocomm technology and the teachers here are known to produce a very good teaching materials and are very innovative teaching ideas to engage the students in their classrooms"
+        intervals [12]:
+            xmin = 76.14
+            xmax = 77.64
+            text = "um"
+        intervals [13]:
+            xmin = 77.64
+            xmax = 79.89
+            text = ""
+        intervals [14]:
+            xmin = 79.89
+            xmax = 168.38
+            text = "in the early nineteen nineties the teachers really are the monopoly of knowledge and they are the one that comes to the class to deliver that knowledge so that the students can acquire them but today knowledge is no more a monopoly among the teachers because students can get knowledge from a myriad of sources and hence the role of the teacher today is facilitation dummies facilitates students where they could get the right knowledge how they could synthesize them how they could discern the information that they get velocity the five the rate of change of before their time is it true of art thou i you treat me unfit for the failure to perform at any rate so you would have at thine vote by tweet what we look at technology very meaningfully and we see how can we leverage this technology to make a very significant impact in the classroom instruction i'll give you an example in a classroom of forty it is really impossible to get forty students to ask forty questions at one go when we use the instant messaging tool we open forty windows to forty kids they could ask forty questions at the same time and a teacher could see their thinking on on the technology too that they use and kids get more excited because they're using the tools that they are very very good in using not just a pen and pencil okay so themed room we were never to students who are either you know if you have any issues at the mills ratio ahead of the school"
+        intervals [15]:
+            xmin = 168.38
+            xmax = 170.63
+            text = "um"
+        intervals [16]:
+            xmin = 170.63
+            xmax = 182.63
+            text = "the students are doing as they are currently exploring this second life art gallery of which this were set up in the works that are shown in this er gallery is actually made up of our local works there been done by"
+        intervals [17]:
+            xmin = 182.63
+            xmax = 183.38
+            text = "because of this"
+        intervals [18]:
+            xmin = 183.38
+            xmax = 189.38
+            text = "and while he was there"
+        intervals [19]:
+            xmin = 189.38
+            xmax = 198.38
+            text = "as a whole the online platform is very very useful because uh it's something that really engages the students you'll be chatting with one another about the world"
+        intervals [20]:
+            xmin = 198.38
+            xmax = 199.88
+            text = "suzanne edifice of art"
+        intervals [21]:
+            xmin = 199.88
+            xmax = 207.38
+            text = "suppose of design as well as a reading other students comments as well like today can actually leave notes for others"
+        intervals [22]:
+            xmin = 207.38
+            xmax = 214.88
+            text = "so there should be no fire"
+        intervals [23]:
+            xmin = 214.88
+            xmax = 232.13
+            text = "what two point zero worked with wiki with your facebook your blocks you find that uh that is a very participatory culture it calls for a lot of collaboration they no longer become just a consumer of knowledge they actually produce knowledge why the important things that you have discovered"
+        intervals [24]:
+            xmin = 232.13
+            xmax = 234.38
+            text = "about the army"
+        intervals [25]:
+            xmin = 234.38
+            xmax = 235.13
+            text = "so"
+        intervals [26]:
+            xmin = 235.13
+            xmax = 237.38
+            text = "the tendency to lose from her"
+        intervals [27]:
+            xmin = 237.38
+            xmax = 261.38
+            text = "i find that students themselves are often on facebook so instead of looking at them and look at facebook as a distraction i would rather use it to engage them they even like when they're stuck with certain question the course of the question to the class and you see responses and they're learning from each other which i think it's better because there's more motivation intrinsic motivation for them to learn other than ok i tell you"
+        intervals [28]:
+            xmin = 261.38
+            xmax = 262.88
+            text = "and i say this"
+        intervals [29]:
+            xmin = 262.88
+            xmax = 270.43
+            text = "i would say that the teachers in the school myself included we we scanned the globe for best practices"

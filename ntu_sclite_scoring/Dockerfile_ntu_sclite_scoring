@@ -1,0 +1,50 @@
+FROM ubuntu:18.04
+MAINTAINER Nga <ngaht@ntu.edu.sg>
+
+# set timezone
+ENV TZ Asia/Singapore
+
+RUN apt-get update && \
+    apt-get install -y autoconf automake bzip2 g++ git make swig gzip gawk && \
+    apt-get -y install sudo && \
+    apt-get -y install vim && \
+	apt-get install -y autoconf automake build-essential \
+	apt-utils git\
+	python2.7 python-pip python-dev python3 python3-pip && \
+	pip install --upgrade setuptools && \
+	ln -sfn /usr/bin/python3 /usr/bin/python ; ln -s -f bash /bin/sh
+
+# Install python libraries via pip
+RUN pip install watchdog       && pip3 install watchdog
+
+WORKDIR /workspace
+RUN useradd speechuser
+RUN chown -R speechuser:speechuser /workspace
+
+
+# Download SCTK
+RUN git clone https://github.com/usnistgov/SCTK.git
+RUN chown -R speechuser:speechuser /workspace/SCTK
+RUN cd /workspace/SCTK && \
+    make config && \
+    make all && \
+    make check && \
+    make install && \
+    make doc
+
+RUN ln -sfn /workspace/SCTK/src/sclite/sclite /usr/bin/sclite 
+
+USER speechuser
+
+ENV LANG                  en_US.UTF-8
+
+
+# Copy scripts
+COPY --chown=speechuser:speechuser scripts/                             /workspace/scripts
+COPY --chown=speechuser:speechuser entry_point.sh                             /workspace/entry_point.sh
+RUN  chmod +x /workspace/entry_point.sh
+
+#ENTRYPOINT ["/tini", "--"]
+
+
+
