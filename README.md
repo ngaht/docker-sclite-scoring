@@ -1,7 +1,7 @@
 # Guidelines to install and scoring with NTU SCLITE Docker
 
 
-* Prepared by: Nga (ngaht@ntu.edu.sg)
+* Prepared by: Nga (ngaht@ntu.edu.sg)*
 ## Installation
 	1. Create working directory: In the terminal, type the following commands
 		`$ mkdir ~/docker-sclite-scoring`
